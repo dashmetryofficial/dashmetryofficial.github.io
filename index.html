@@ -175,9 +175,144 @@
 					}, 30000);
 				 }
 				 gmRepeatEvery30Seconds();</script></div><div class="similar-games has_ads_side" style="display: none;"><div class="similar-games-container"></div><div class="similar_game_all_btn"><a class="similar_game_link" href="/new-games">All Games</a><span class="close_button_all_games"><span class="svg-icon" aria-hidden="true"><svg class="svg-icon__link"><use xlink:href="#icon-close"></use></svg></span></span></div></div></div></div></div><div class="app-popup hidden"><div class="app-popup__content"><div class="app-popup__close"><button class="close_popup_content"><span class="svg-icon " aria-hidden="true"><svg class="svg-icon__link"><use xlink:href="#icon-close"></use></svg></span></button></div><div class="game-page"><div class="game-page__short-description-content"><div class="game-page__image-wrap"><img src="/cache/data/image/game/dashmetry/dashmetry-m180x180.webp"
- alt="Play Dashmetry" class="game-page__image"></div><div class="game-page__short-description-wrap"><div class="game-page__short-description"><div class="game-page__short-description-top"><h2 class="game-page__title">Dashmetry </h2></div></div></div></div><div class="game-page__content" id="game-page__content"><div class="game-page_column"><div class="game-page__instruction"><div class="game-description" id="game-description"></div><div class="game-page__tags"></div></div><!-- <div class="recommended-games" id="game-recommended"><div class="recommended-game_heading">Recommened for you</div></div> --></div></div></div></div><div class="app-popup__bg"></div></div><div class="play-game-header-menu__popup-container play-game-header-menu"><div class="play-game-header__popup-arrow"></div><div class="play-game-header-menu__menu-container"><div class="play-game-header-menu__popup-inner"><div class="play-game-header-menu__rows"><hr class="play-game-header-menu__row-border"><!-- <hr class="play-game-header-menu__row-border"><div class="play-game-header-menu__row play-game-header-recommened-button "><span class="svg-icon" aria-hidden="true"><svg class="svg-icon__link"><use xlink:href="#icon-game-pad"></use></svg></span><span class="play-game-header-menu__row-text">Recommend for you</span></div> --></div><!-- <div class="play-game-header-menu__footer"><a class="play-game-header-menu__logo-button" target="_blank" href="/new-games">Open New Games</a></div> --></div></div></div>
+ alt="Play Dashmetry" class="game-page__image"></div><div class="game-page__short-description-wrap"><div class="game-page__short-description"><div class="game-page__short-description-top"><h2 class="game-page__title">Dashmetry </h2></div></div></div></div><div class="game-page__content" id="game-page__content"><div class="game-page_column"><div class="game-page__instruction"><div class="game-description" id="game-description"></div><div class="game-page__tags"></div></div><!-- <div class="recommended-games" id="game-recommended"><div class="recommended-game_heading">Recommened for you</div></div> --></div></div></div></div><div class="app-popup__bg"></div></div><div class="play-game-header-menu__popup-container play-game-header-menu"><div class="play-game-header__popup-arrow"></div><div class="play-game-header-menu__menu-container"><div class="play-game-header-menu__popup-inner"><div class="play-game-header-menu__rows"><hr class="play-game-header-menu__row-border"><hr class="play-game-header-menu__row-border"><div class="play-game-header-menu__row _change_log_btn"><span class="svg-icon" aria-hidden="true"><svg class="svg-icon__link"><use xlink:href="#icon-file-text"></use></svg></span><span class="play-game-header-menu__row-text">Change Logs</span></div><!-- <hr class="play-game-header-menu__row-border"><div class="play-game-header-menu__row play-game-header-recommened-button "><span class="svg-icon" aria-hidden="true"><svg class="svg-icon__link"><use xlink:href="#icon-game-pad"></use></svg></span><span class="play-game-header-menu__row-text">Recommend for you</span></div> --></div><!-- <div class="play-game-header-menu__footer"><a class="play-game-header-menu__logo-button" target="_blank" href="/new-games">Open New Games</a></div> --></div></div></div>
+<div class="popup-change-log" style="display: none"><div class="popup-close"><button type="submit" class="btn-close-share"
+ aria-label="close"><span class="svg-icon" aria-hidden="true"><svg class="svg-icon__link"><use xlink:href="#icon-close"></use></svg></span></button></div><div class="popup-title">Change Log</div><div class="popup-change-log-wrapper"><div class="popup-change-log-content"><div class="change_log_item"><div class="title_change_log"><div class="change_log_version">[19 Aug 2025 ] v25081902</div></div><div class="content_change_log"><ul><li>Endless Mode:&nbsp;Polished Shield Effect. Disabled background sound when player dies, replay sound when revived.</li><li>Upgrade Background/Ground assets.</li></ul> </div></div><div class="change_log_item"><div class="title_change_log"><div class="change_log_version">[16 Aug 2025 ] v25081604</div></div><div class="content_change_log"><p>Add new features:</p><ul><li>Endless Mode.</li><li>Leaderboard.</li></ul> </div></div></div></div></div><div class="popup-bg" style="display: none"></div><style>.popup-change-log {
+ position: fixed;
+ display: none;
+ top: 50%;
+ left: 50%;
+ max-width: 550px;
+ width: 100%;
+ height: auto;
+ transform: translate(-50%, -50%);
+ padding: 45px 32px;
+ background: #fff;
+ border-radius: 8px;
+ z-index: 999;
+ box-shadow: 0 2px 13px #00000042;
+ max-height: 550px;
+ }
 
-<svg class="main-svg-sprite main-svg-sprite--icons" xmlns="http://www.w3.org/2000/svg"
+ .popup-title {
+ padding: 0 4px;
+ font-size: 24px;
+ color: #000;
+ font-weight: 700;
+ margin: 0 0 10px;
+ }
+
+ .popup-link {
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ padding: 4px 12px;
+ border: 1px solid #ccc;
+ border-radius: 100px;
+ margin-top: 12px;
+ position: relative;
+ height: 40px;
+ margin-bottom: 20px;
+ }
+
+ .popup-close {
+ position: absolute;
+ right: 5px;
+ top: 5px;
+ z-index: 99999;
+ }
+
+ .popup-close .svg-icon {
+ width: 14px;
+ height: 14px;
+ }
+
+ .btn-close-share {
+ background: 0;
+ border: 0;
+ color: #000;
+ width: 30px;
+ height: 30px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ }
+
+ .popup-bg {
+ position: fixed;
+ display: none;
+ top: 0;
+ left: 0;
+ width: 100%;
+ height: 100%;
+ background: #0f0f1045;
+ backdrop-filter: blur(7px);
+ z-index: 900;
+ }
+
+ .popup-link--url {
+ width: 100%;
+ background: 0;
+ border: 0;
+ height: auto;
+ color: #000;
+ }
+
+ .popup-link--url:focus-visible,
+ .popup-link--url:focus {
+ outline: 0;
+ }
+
+ .popup-link--copy {
+ position: absolute;
+ right: 10px;
+ top: 50%;
+ transform: translateY(-50%);
+ color: #8166ff;
+ font-weight: 600;
+ }
+
+ .popup-link--copy:hover {
+ cursor: pointer;
+ }
+
+ .share_social_list {
+ width: 100%;
+ }
+
+ .popup-change-log-wrapper {
+ max-height: calc(550px - 90px - 47px);
+ overflow-y: auto;
+ }
+
+ .content_change_log {
+ margin-bottom: 6px;
+ color: #000;
+ font-size: 14px;
+ padding-left: 15px;
+ }
+
+ .title_change_log {
+ margin-bottom: 8px;
+ font-size: 15px;
+ font-weight: 700;
+ color: #000;
+ line-height: normal;
+ letter-spacing: 1.1px;
+ } 
+ .content_change_log ul {
+ padding-left: 16px;
+ margin: 0;
+ }
+
+ .content_change_log ul li,
+ .content_change_log ol li {
+ list-style: disc;
+ margin-bottom: 6px;
+ }
+ .change_log_item:not(:last-child) {
+ margin-bottom: 10px;
+ }</style><svg class="main-svg-sprite main-svg-sprite--icons" xmlns="http://www.w3.org/2000/svg"
  xmlns:xlink="http://www.w3.org/1999/xlink"><symbol id="icon-sun" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="5"></circle><path stroke-linecap="round" d="M12 2v2m0 16v2M4 12H2m20 0h-2"></path><path stroke-linecap="round"
  d="m19.778 4.223l-2.222 2.031M4.222 4.223l2.222 2.031m0 11.302l-2.222 2.222m15.556-.001l-2.222-2.222"
  opacity="0.5"></path></g></symbol><symbol id="icon-menu-bar" viewBox="0 0 24 24"><path d="M19 4C19.5523 4 20 3.55229 20 3C20 2.44772 19.5523 2 19 2L3 2C2.44772 2 2 2.44772 2 3C2 3.55228 2.44772 4 3 4L19 4ZM20.47 7.95628L15.3568 11.152C14.7301 11.5437 14.7301 12.4564 15.3568 12.848L20.47 16.0438C21.136 16.4601 22 15.9812 22 15.1958V8.80427C22 8.01884 21.136 7.54 20.47 7.95628ZM11 13C11.5523 13 12 12.5523 12 12C12 11.4477 11.5523 11 11 11L3 11C2.44771 11 2 11.4477 2 12C2 12.5523 2.44771 13 3 13L11 13ZM20 21C20 21.5523 19.5523 22 19 22L3 22C2.44771 22 2 21.5523 2 21C2 20.4477 2.44771 20 3 20L19 20C19.5523 20 20 20.4477 20 21Z"></path></symbol><symbol id="icon-moon" viewBox="0 0 24 24"><path fill="currentColor"
